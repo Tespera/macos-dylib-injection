@@ -1,6 +1,6 @@
-# macOS 动态库注入项目
+# MacOS 动态库注入项目
 
-本项目演示如何在 macOS 应用程序中注入自定义动态库，显示弹窗消息。
+本项目演示如何在 MacOS 应用程序中注入自定义动态库，显示弹窗消息。
 
 ## 文件结构
 
@@ -32,7 +32,7 @@
 ./inject_lib_tips.sh /path/to/App.app
 
 # 示例：注入到桌面的应用程序
-./inject_lib_tips.sh ~/Desktop/Squash.app
+./inject_lib_tips.sh /Applications/test.app
 ```
 
 脚本会自动：
