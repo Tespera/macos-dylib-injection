@@ -1,0 +1,33 @@
+# Build directories
+build/
+*.dylib
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# App bundles (for testing)
+*.app/
+
+# Logs
+*.log
